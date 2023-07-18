@@ -1,0 +1,186 @@
+@media screen and (max-width:1334px) {
+    .box__item h1{
+    font-size: 16px;
+}
+}
+
+@media screen and (max-width:1200px) {
+
+    .imgs{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media screen and (max-width:1030px) {
+
+    .boxs{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (max-width:961px) {
+
+.hamburger div{
+    
+    display: block;
+}
+    .over{
+    display: block; 
+}
+    .navbar img{
+    display: none;
+}
+    
+
+    .user i{
+        margin-left: 12px;
+        font-size: 20px;
+    }
+    .user p{
+        font-size: 10px;
+    }
+    .like i{
+        margin-left: 1px;
+        font-size: 20px;
+    }
+    .like p {
+        font-size: 13px;
+    }
+    .cart{
+        margin-left: 1px;
+        font-size: 15px;
+    }
+    .cart p {
+        font-size: 13px;
+    }
+    .navbar__bottom{
+        display: none;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .box__item h1{
+    font-size: 25px;
+    }
+    .box__item h3{
+    font-size: 20px;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .imgs{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .boxs{
+        grid-template-columns: repeat(3, 1fr);
+    }
+.box__item h1{
+
+    font-size: 30px;
+
+}
+.footer__top{
+    gap: 40px;
+}
+.colletion3
+.colletion4{
+    gap: 0px;
+    line-height: 3;
+}
+.tel2{
+    display: none;
+}
+.footer{
+    flex-direction: column-reverse;
+}
+
+.colletion1,
+.colletion3{
+    display: none;
+}
+.header{
+    flex-direction: column-reverse;
+}
+.header__item1{
+    display: none;
+}
+.header__item2{
+    width: 96%;
+    padding-bottom: 100px;
+}
+.header__item3{
+    width: 96%;
+}
+
+.buttons{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.banner h3{
+    padding: 50px 0 0 50px;
+    font-size: 30px;
+}
+
+.take{
+    flex-direction: column;
+}
+.banner h2{
+    font-size: 50px;
+}
+.banner h5{
+    font-size: 50px;
+}
+.banner button{
+    margin: 30px 40px;
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+.banner h4{
+    line-height: 0;
+    padding: 20px 0 0 20px;
+    font-size: 20px;
+}
+
+
+}
+@media screen and (max-width:507px) {
+ 
+.box__item h1{
+
+    font-size: 13px;
+
+}
+.box__item h3{
+    font-size: 12px;
+}
+
+.imgs{
+    grid-template-columns: repeat(2, 1fr);
+
+}
+.big__img h3{
+padding-left: 30px;
+
+}
+.big__img h2{
+    font-size: 60px;
+}
+.big__img button{
+    padding: 15px 24px;
+    font-size: 15px;
+}
+.img2 h1{
+font-size: 50px;
+}
+.img2 h2{
+font-size: 20px;
+
+}
+.img2 button{
+    padding: 10px 15px;
+}
+
+}
