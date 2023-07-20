@@ -7,7 +7,6 @@
 body{
     max-width: 1920px;
     margin: auto;
-    height: 500vh;
 }
 
 .navbar{
@@ -460,7 +459,6 @@ body{
 }
 .buttons{
     width: 90%;
-    height: 300px;
     margin: 40px auto;
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -522,7 +520,7 @@ body{
     width: 100%;
     min-height: 400px;
     background: #545658;
-    padding: 50px 100px;
+    padding: 50px 70px;
     display: flex;
     gap: 200px;
 }
@@ -559,7 +557,7 @@ body{
     width: 100%;
     min-height: 100px;
     background: #2F3337;
-    padding: 40px 60px;
+    padding: 40px 70px;
     display: flex;
 }
 
@@ -581,3 +579,5 @@ body{
     width: 50px;
     height: 30px;
 }
+
+
